@@ -7,11 +7,137 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: IPO
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ipo/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Xignite IPOs - Get IPO
+  x-api-slug: getipo-get
+  description: Post getipo
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ipo/master/_listings/xignite/getipo-get-openapi.md
+- name: Xignite IPOs - Get IPO Calendar
+  x-api-slug: getipocalendar-get
+  description: Post getipocalendar
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ipo/master/_listings/xignite/getipocalendar-get-openapi.md
+- name: Xignite IPOs - Get IPO Calendar By Exchange
+  x-api-slug: getipocalendarbyexchange-get
+  description: Post getipocalendarbyexchange
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ipo/master/_listings/xignite/getipocalendarbyexchange-get-openapi.md
+- name: Xignite IPOs - Get IPO By Status
+  x-api-slug: getipobystatus-get
+  description: Post getipobystatus
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ipo/master/_listings/xignite/getipobystatus-get-openapi.md
+- name: Xignite IPOs - Get IPO List
+  x-api-slug: getipolist-get
+  description: Post getipolist
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ipo/master/_listings/xignite/getipolist-get-openapi.md
+- name: Xignite IPOs - Get IPO Details
+  x-api-slug: getipodetails-get
+  description: Post getipodetails
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ipo/master/_listings/xignite/getipodetails-get-openapi.md
+- name: Xignite IPOs - Search IPO By Symbol
+  x-api-slug: searchipobysymbol-get
+  description: Post searchipobysymbol
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ipo/master/_listings/xignite/searchipobysymbol-get-openapi.md
+- name: Xignite IPOs - Search IPO By Name
+  x-api-slug: searchipobyname-get
+  description: Post searchipobyname
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ipo/master/_listings/xignite/searchipobyname-get-openapi.md
+- name: Xignite IPOs - Get IPO Performance
+  x-api-slug: getipoperformance-get
+  description: Post getipoperformance
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://ipos.xignite.com/xIPOs.json/XigniteIPOs
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ipo/master/_listings/xignite/getipoperformance-get-openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
